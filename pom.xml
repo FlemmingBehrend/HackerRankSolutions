@@ -36,8 +36,8 @@
     </dependencies>
     <build>
         <finalName>HackerRankJava</finalName>
-        <sourceDirectory>${project.basedir}/src/java</sourceDirectory>
-        <testSourceDirectory>${project.basedir}/src/java</testSourceDirectory>
+        <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
+        <testSourceDirectory>${project.basedir}/src/main/java</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
