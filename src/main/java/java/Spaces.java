@@ -1,4 +1,4 @@
-package datastructures;
+package java;
 
 import java.util.Scanner;
 import java.util.stream.Collectors;
