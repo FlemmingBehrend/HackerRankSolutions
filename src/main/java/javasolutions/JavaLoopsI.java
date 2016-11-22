@@ -1,4 +1,4 @@
-package java;
+package javasolutions;
 
 import java.util.ArrayList;
 import java.util.List;

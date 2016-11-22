@@ -1,4 +1,4 @@
-package java;
+package javasolutions;
 
 import java.util.Scanner;
 import java.util.stream.Collectors;

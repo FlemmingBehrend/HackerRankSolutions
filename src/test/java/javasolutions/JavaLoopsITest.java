@@ -1,10 +1,9 @@
-package java;
+package javasolutions;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.JavaLoopsI;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -24,24 +23,24 @@ public class JavaLoopsITest {
     void multiplyByOne() {
         List<String> result = cut.multiplyBy(1);
         assertEquals(result.size(), 10);
-        assertEquals(result.get(0), "1 x 1 = 1");
-        assertEquals(result.get(9), "1 x 10 = 10");
+        assertEquals("1 x 1 = 1", result.get(0));
+        assertEquals("1 x 10 = 10", result.get(9));
     }
 
     @Test
     @DisplayName("given 2 return numbers multiplied by 2")
     void multiplyByTwo() {
         List<String> result = cut.multiplyBy(2);
-        assertEquals(result.get(0), "2 x 1 = 2");
-        assertEquals(result.get(9), "2 x 10 = 20");
+        assertEquals("2 x 1 = 2", result.get(0));
+        assertEquals("2 x 10 = 20", result.get(9));
     }
 
     @Test
     @DisplayName("given 20 return numeers multiplied by 20")
     void multipleByTwenty() {
         List<String> result = cut.multiplyBy(20);
-        assertEquals(result.get(0), "20 x 1 = 20");
-        assertEquals(result.get(9), "20 x 10 = 200");
+        assertEquals("20 x 1 = 20", result.get(0));
+        assertEquals("20 x 10 = 200", result.get(9));
     }
 
 }
